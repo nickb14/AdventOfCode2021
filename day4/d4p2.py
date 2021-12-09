@@ -29,11 +29,9 @@ def main():
                             sumUnmarked = 0
                             for i in range(5): #if we took all 10 rows there would be duplicates
                                 sumUnmarked += sum(board[i])
-                            score = num * sumUnmarked
-                            boards.remove(board)
+                            score = num * sumUnmarked #lazy solution lol I barely changed anything
+                            boards.remove(board) #eek
                             break
-            print(num)
-            print(boards)
         return score
     score = findWinner()
     print(score)
