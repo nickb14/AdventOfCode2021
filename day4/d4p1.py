@@ -13,5 +13,19 @@ def main():
             line = f.readline()
     
     print(board)
+    print(boardListToList(board))
+
+#this system very much does not work right now
+def boardListToList(boardStr): #list of strings to list of lists of ints
+    boardList = []
+    for row in boardStr:
+        boardList.append(rowStringToList(row))
+    return boardList
+
+def rowStringToList(rowStr): #string to list of ints
+    rowList = []
+    for i in range(5):
+        rowList.append(int(rowStr[i*3:i*3+2]))
+    return rowList
 
 main()
