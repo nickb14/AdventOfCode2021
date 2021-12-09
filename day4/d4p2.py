@@ -21,7 +21,7 @@ def main():
     
     def findWinner(): #why is this allowed though (I made a fuction to break out of the nested loops)
         for num in nums:
-            for board in boards:
+            for board in boards[:]: #iterates over a copy of the list - I am shook
                 for row in board:
                     if row.count(num) == 1:
                         row.remove(num)
