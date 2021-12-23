@@ -1,15 +1,18 @@
 def main():
 
     with open("/workspace/AdventOfCode2021/day6/input.txt") as f:
-        fish = f.read().split(',')
-        fish = list(map(int, fish))
+        fishList = f.read().split(',')
+    fishList = list(map(int, fishList))
+
+    fish = [0] * 9
+    for f in fishList:
+        fish[f] += 1 #it works I guess
     
-    for i in range(256): #am I supposed to do more logic to make this faster because I don't want to
-        fish = [f-1 for f in fish]
-        new = [8] * fish.count(-1)
-        fish = [f if f>=0 else 6 for f in fish]
-        fish.extend(new)
-        print(i)
-    print(len(fish))
+    for i in range(256): #that's pretty epic
+        new = fish.pop(0)
+        fish[6] += new
+        fish.append(new)
+    
+    print(sum(fish))
 
 main()
