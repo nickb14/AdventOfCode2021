@@ -1,6 +1,6 @@
 nums = []
 
-with open("/workspace/AdventOfCode2021/day1/input.txt") as f:
+with open("/workspace/AdventOfCode2021/day01/input.txt") as f:
     line = f.readline()
     while line:
         nums.append(int(line))

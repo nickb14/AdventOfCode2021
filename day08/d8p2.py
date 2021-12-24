@@ -2,7 +2,7 @@ def main():
 
     sum = 0
 
-    with open("/workspace/AdventOfCode2021/day8/input.txt") as f:
+    with open("/workspace/AdventOfCode2021/day08/input.txt") as f:
         line = f.readline()
         while line:
 

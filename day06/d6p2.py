@@ -1,6 +1,6 @@
 def main():
 
-    with open("/workspace/AdventOfCode2021/day6/input.txt") as f:
+    with open("/workspace/AdventOfCode2021/day06/input.txt") as f:
         fishList = f.read().split(',')
     fishList = list(map(int, fishList))
 

@@ -1,7 +1,7 @@
 def main():
 
     boards = []
-    with open("/workspace/AdventOfCode2021/day4/input.txt") as f:
+    with open("/workspace/AdventOfCode2021/day04/input.txt") as f:
         nums = f.readline()
         line = f.readline()
         while line:
