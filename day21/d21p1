@@ -1,5 +1,3 @@
-import statistics
-
 def main():
 
     with open("/workspace/AdventOfCode2021/day21/input.txt") as f:
