@@ -3,7 +3,7 @@ def main():
     maxim = 0
     vents = []
 
-    with open("/workspace/AdventOfCode2021/day05/input.txt") as f:
+    with open("day05/input.txt") as f:
         line = f.readline()
         while line:
             line = splitInto4(line)

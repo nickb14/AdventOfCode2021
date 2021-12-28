@@ -2,7 +2,7 @@ def main():
 
     heightmap = []
     
-    with open("/workspace/AdventOfCode2021/day09/input.txt") as f:
+    with open("day09/input.txt") as f:
         line = f.readline()
         while line:
             heightmap.append([10] + list(map(int, line.rstrip())) + [10])

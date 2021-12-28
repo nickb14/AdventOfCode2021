@@ -1,6 +1,6 @@
 def main():
     lines = []
-    with open("/workspace/AdventOfCode2021/day03/input.txt") as f:
+    with open("day03/input.txt") as f:
         line = f.readline()
         while line:
             lines.append(line)

@@ -1,6 +1,6 @@
 def main():
     dirs = []
-    with open("/workspace/AdventOfCode2021/day02/input.txt") as f:
+    with open("day02/input.txt") as f:
         line = f.readline()
         while line:
             dirs.append(lineToDir(line))

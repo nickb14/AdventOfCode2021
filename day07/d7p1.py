@@ -2,7 +2,7 @@ import statistics
 
 def main():
 
-    with open("/workspace/AdventOfCode2021/day07/input.txt") as f:
+    with open("day07/input.txt") as f:
         crabs = f.read().split(',')
     crabs = list(map(int, crabs))
 

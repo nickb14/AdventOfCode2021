@@ -1,6 +1,6 @@
 def main():
 
-    with open("/workspace/AdventOfCode2021/day21/input.txt") as f:
+    with open("day21/input.txt") as f:
         pos1 = int(f.readline()[28:])
         pos2 = int(f.readline()[28:])
 
