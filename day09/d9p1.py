@@ -1,3 +1,5 @@
+#I forgot how to do this brah
+
 def main():
 
     heightmap = []
