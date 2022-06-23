@@ -1,0 +1,15 @@
+/Users/nicholasbilsborrow/Code/nickb14/AdventOfCode2021/day11/bin/Debug/net6.0/day11
+/Users/nicholasbilsborrow/Code/nickb14/AdventOfCode2021/day11/bin/Debug/net6.0/day11.deps.json
+/Users/nicholasbilsborrow/Code/nickb14/AdventOfCode2021/day11/bin/Debug/net6.0/day11.runtimeconfig.json
+/Users/nicholasbilsborrow/Code/nickb14/AdventOfCode2021/day11/bin/Debug/net6.0/day11.dll
+/Users/nicholasbilsborrow/Code/nickb14/AdventOfCode2021/day11/bin/Debug/net6.0/day11.pdb
+/Users/nicholasbilsborrow/Code/nickb14/AdventOfCode2021/day11/obj/Debug/net6.0/day11.csproj.AssemblyReference.cache
+/Users/nicholasbilsborrow/Code/nickb14/AdventOfCode2021/day11/obj/Debug/net6.0/day11.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicholasbilsborrow/Code/nickb14/AdventOfCode2021/day11/obj/Debug/net6.0/day11.AssemblyInfoInputs.cache
+/Users/nicholasbilsborrow/Code/nickb14/AdventOfCode2021/day11/obj/Debug/net6.0/day11.AssemblyInfo.cs
+/Users/nicholasbilsborrow/Code/nickb14/AdventOfCode2021/day11/obj/Debug/net6.0/day11.csproj.CoreCompileInputs.cache
+/Users/nicholasbilsborrow/Code/nickb14/AdventOfCode2021/day11/obj/Debug/net6.0/day11.dll
+/Users/nicholasbilsborrow/Code/nickb14/AdventOfCode2021/day11/obj/Debug/net6.0/refint/day11.dll
+/Users/nicholasbilsborrow/Code/nickb14/AdventOfCode2021/day11/obj/Debug/net6.0/day11.pdb
+/Users/nicholasbilsborrow/Code/nickb14/AdventOfCode2021/day11/obj/Debug/net6.0/day11.genruntimeconfig.cache
+/Users/nicholasbilsborrow/Code/nickb14/AdventOfCode2021/day11/obj/Debug/net6.0/ref/day11.dll
