@@ -1,34 +1,33 @@
 def main():
 
     grid = []
-    steps = 100
+    steps = 500
     
     with open("day11/input.txt") as f:
         line = f.readline()
         while line:
             grid.append(list(map(int, line.rstrip())))
             line = f.readline()
-
-    tot = 0
     
+    allFlash = False
     for r in range(steps):
         for i in range(len(grid)):
             for j in range(len(grid[i])):
                 grid[i][j] += 1
                 if grid[i][j] == 10:
-                    tot += flash(i, j, grid)
+                    flash(i, j, grid)
+        allFlash = True
         for i in range(len(grid)):
             for j in range(len(grid[i])):
                 if (grid[i][j] >= 10):
                     grid[i][j] = 0
-        #print("step " + str(r+1))
-        #for row in grid:
-        #    print(row)
-    
-    print(tot)
+                else:
+                    allFlash = False
+        if allFlash:
+            print(r+1)
+            break
 
 def flash(i, j, grid):
-    num = 1
     for x in range(i-1, i+2):
         if x < 0:
             continue
@@ -38,10 +37,9 @@ def flash(i, j, grid):
             try:
                 grid[x][y] += 1
                 if grid[x][y] == 10:
-                    num += flash(x, y, grid)
+                    flash(x, y, grid)
             except:
                 pass
-    return num
 
 
 
